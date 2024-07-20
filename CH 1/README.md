@@ -21,4 +21,5 @@
 기로축은 특징, 세로축은 목표치
 관측한 4개의 점이 훈련집합을 구성함
 
-https://www.notion.so/CH-1-b510b5c1b4a74809b7e4741f643257c0?pvs=4#1b79157d24c04f79b8593f2a31bb1514
+![Untitled](https://github.com/user-attachments/assets/21e5f4a4-f169-4817-a93f-623e3e00b6b4)
+
