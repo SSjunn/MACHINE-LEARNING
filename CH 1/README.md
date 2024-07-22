@@ -64,10 +64,12 @@
 모델이 복잡해지면 기계학습이 추정해야 되는 매개변수의 수가 아주 많아진다.
 
 ### 특징 공간 변환과 표현 학습
+
 ![Untitled (3)](https://github.com/user-attachments/assets/75b75b23-f5c4-4b33-98bc-4a2cc210c1ba)
 ![Untitled (4)](https://github.com/user-attachments/assets/96dc0965-e268-44ab-834b-b0ec0f977187)
 
 ### 표현 학습
+
 ![Untitled (5)](https://github.com/user-attachments/assets/2bd91c24-7513-4a2d-90ba-791ef8834d08)
 
 ## 데이터에 대한 이해
@@ -108,7 +110,9 @@
 ![Untitled (8)](https://github.com/user-attachments/assets/77f31422-49d7-4cfb-99be-5677f00a9d50)
 ![Untitled (9)](https://github.com/user-attachments/assets/7554f093-f2ca-4323-9a46-6784d3446263)
 
+
 # 모델 선택
+
 
 ### 과소적합과 과잉적합
 ---------
@@ -125,6 +129,7 @@
 1~2차는 훈련집합과 테스트집합 모두 낮은 성능.
 3~4차는 룬련집합에 대해 12차보다는 낮지만 테스트집합에는 높은 성능 → 높은 일반화 능력
 12차는 훈련집합에 높은 성능을 보이나 테스트 집함에서는 낮은 성능 → 낮은 일반화 능력
+
 
 ### 바이어스와 분산
 ----
@@ -150,7 +155,7 @@
 훈련집합과 테스트 집합으로 만든 모델집합을 여러 모델을 독립적으로 학습시킨후 그중 가장 작은 모델을 선택하기 위해 검증집합을 만들어 성능을 측정
 ![image](https://github.com/user-attachments/assets/2f21b7bd-f917-4047-8021-6f3e73de1b34)
 
-### 교차검증
+### 교차검증(Cross-Validation)
 비용 문제로 별도의 검증집합이 없는 상황에 유용한 모델 선택 기법이며 훈련집합을 등분하여, 학습과 평가 과정을 여러 번 반복한 후 평균 사용
 ![image](https://github.com/user-attachments/assets/169b6e98-e933-46df-bf1e-a2851dab8d70)
 
