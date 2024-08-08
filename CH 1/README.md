@@ -196,7 +196,77 @@
 
 ## 가중치를 작제 조절하는 기법
 아래 왼쪽의 그래프의 경우에는 가중치가 매우 크다.
+
 ![image](https://github.com/user-attachments/assets/816e90fa-ef2d-4ee6-8c83-c37c51055cc3)
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mi>J</mi>
+  <mo stretchy="false">(</mo>
+  <mi mathvariant="normal">&#x398;</mi>
+  <mo stretchy="false">)</mo>
+  <mo>=</mo>
+  <mfrac>
+    <mn>1</mn>
+    <mi>n</mi>
+  </mfrac>
+  <munderover>
+    <mo data-mjx-texclass="OP">&#x2211;</mo>
+    <mrow data-mjx-texclass="ORD">
+      <mi>i</mi>
+      <mo>=</mo>
+      <mn>1</mn>
+    </mrow>
+    <mrow data-mjx-texclass="ORD">
+      <mi>n</mi>
+    </mrow>
+  </munderover>
+  <mo stretchy="false">(</mo>
+  <msub>
+    <mi>f</mi>
+    <mrow data-mjx-texclass="ORD">
+      <mi mathvariant="normal">&#x398;</mi>
+    </mrow>
+  </msub>
+  <mo stretchy="false">(</mo>
+  <msub>
+    <mi>x</mi>
+    <mrow data-mjx-texclass="ORD">
+      <mi>i</mi>
+    </mrow>
+  </msub>
+  <mo stretchy="false">)</mo>
+  <mo>&#x2212;</mo>
+  <msub>
+    <mi>y</mi>
+    <mrow data-mjx-texclass="ORD">
+      <mi>i</mi>
+    </mrow>
+  </msub>
+  <msup>
+    <mo stretchy="false">)</mo>
+    <mrow data-mjx-texclass="ORD">
+      <mn>2</mn>
+    </mrow>
+  </msup>
+  <mo>+</mo>
+  <mi>&#x3BB;</mi>
+  <msubsup>
+    <mrow data-mjx-texclass="INNER">
+      <mo data-mjx-texclass="OPEN" symmetric="true">&#x2016;</mo>
+      <mi mathvariant="normal">&#x398;</mi>
+      <mo data-mjx-texclass="CLOSE" symmetric="true">&#x2016;</mo>
+    </mrow>
+    <mrow data-mjx-texclass="ORD">
+      <mn>2</mn>
+    </mrow>
+    <mrow data-mjx-texclass="ORD">
+      <mn>2</mn>
+    </mrow>
+  </msubsup>
+</math>
+출처: https://prowiseman.tistory.com/entry/인공지능-기초 [ProWiseman:티스토리]
+가중치 감쇠는 개선된 목적함수를 이용하여 가중치를 작게 조절하는 규제기법
+식 (1.11)의 두 번째 항은 규제 항으로서 가중치 크기를 작게 유지한다.
+
 
 
 
