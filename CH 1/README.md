@@ -204,8 +204,7 @@
 
 
 
-공개 된 데이터베이스
 
-위키피디아 :  list of datasets for machine learning research
-*
+
+공개 된 데이터베이스
 UCI 리퍼지토리
